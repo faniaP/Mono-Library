@@ -1,0 +1,9 @@
+mx/unam/fciencias/controller/LibroController.class
+mx/unam/fciencias/model/Autor.class
+mx/unam/fciencias/repository/UsuarioRespository.class
+mx/unam/fciencias/model/Facultad.class
+mx/unam/fciencias/controller/UsuarioController.class
+mx/unam/fciencias/model/UsuarioModel.class
+mx/unam/fciencias/repository/LibroRepository.class
+mx/unam/fciencias/model/LibroModel.class
+mx/unam/fciencias/converters/UsuarioConverter.class

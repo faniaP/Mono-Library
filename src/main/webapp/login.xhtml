@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core" 
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      >
+    <head>
+        <title>MonoLibrary</title>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">MonoLibrary</a>
+                </div>
+              </div>
+            </nav>
+        <div class="container">
+            <div class="col-sm-8">
+                <img src="img/monote.jpg" width="50%" height="50%"/>
+                <p>
+                    <h1>
+                        <b>MonoLibrary</b>
+                    </h1>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h4>Inicia sesión</h4>
+                <ul class="list-unstyled">
+                      <!-- Falta agregar espacios -->
+                      <li>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Usuario"></input> 
+                        </div>
+                      </li>
+                      <li>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Password"></input>    
+                        </div>
+                      </li>
+                      <li>
+                          <button type="submit" class="btn btn-primary">Ingresar</button>
+                      </li>
+                  </ul>
+                <p>
+                    Si has olvidado tu contraseña da click <a href="#">aquí</a>.
+                </p>
+                <p>
+                    ¿No tienes cuenta?
+                </p>
+                <div>
+                    <button type="submit" class="btn btn-default">Registro</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
